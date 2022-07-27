@@ -4,7 +4,7 @@ const { managerInfo } = require("./lib/Manager");
 
 // Create array to hold team members.
 let teamProfile = [];
-function addManagerProfile() {
+function add2Pagehtml() {
     console.log(teamProfile);
 }
 init = () => {
@@ -19,7 +19,7 @@ init = () => {
         const managerOfficenumber = _managerInfo.managerOfficenumber;
         const teamMember = new Manager( managerName, managerId, managerEmail, managerOfficenumber );
         teamProfile.push(teamMember);
-        addManagerProfile();
+        add2Pagehtml();
     });
 };
 
