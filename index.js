@@ -5,9 +5,11 @@ const { Engineer } = require("./lib/Engineer");
 const { engineerInfo } = require("./lib/Engineer");
 const { Intern } = require("./lib/Intern");
 const { internInfo } = require("./lib/Intern");
+const { generateHTMLPage } = require("./lib/html-template");
+const { writeToFile } = require("./lib/html-template");
 
 // Create array to hold team members.
-let teamProfile = [];
+let teamProfiles = [];
 
 function promptUserChoice() {
     return inquirer.prompt([
@@ -34,7 +36,8 @@ function promptUserChoice() {
 };
 
 function add2Pagehtml() {
-    console.log(teamProfile);
+    const holdHTML = generateHTMLPage(teamProfiles);
+    writeToFile(holdHTML);
 };
 
 function userChoices(choiced) {
@@ -57,7 +60,7 @@ function getManagerInfo() {
             const managerEmail = _managerInfo.managerEmail;
             const managerOfficenumber = _managerInfo.managerOfficenumber;
             const teamMember = new Manager(managerName, managerId, managerEmail, managerOfficenumber);
-            teamProfile.push(teamMember);
+            teamProfiles.push(teamMember);
             promptUserChoice();
         });
 };
@@ -72,7 +75,7 @@ function getEngineerInfo() {
             const engineerEmail = _engineerInfo.engineerEmail;
             const githubUsername = _engineerInfo.githubUsername;
             const teamMember = new Engineer(engineerName, engineerId, engineerEmail, githubUsername);
-            teamProfile.push(teamMember);
+            teamProfiles.push(teamMember);
             promptUserChoice();
         });
 
@@ -88,7 +91,7 @@ function getInternInfo() {
             const internEmail = _internInfo.internEmail;
             const internSchool = _internInfo.internSchool;
             const teamMember = new Intern(internName, internId, internEmail, internSchool);
-            teamProfile.push(teamMember);
+            teamProfiles.push(teamMember);
             promptUserChoice();
         });
 };
