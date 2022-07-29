@@ -14,9 +14,10 @@
   4. [Contributing](#Contributing)
   5. [Tests](#Tests)
   6. [Questions](#Questions)
+  7. [Screenshot](#Screenshot)
   
   ## Installation
-    ```
+  ```
   npm i
   ```
   ```
@@ -33,6 +34,9 @@
   ```
   node index.js
   ```
+  
+  ## Screenshot
+  ![team_generator_](https://user-images.githubusercontent.com/102747948/181675388-964714cc-bdee-46c2-96d0-a12edc29e74c.png)
 
   ## Questions
   If you have any questions please check my GitHub or contact me by e-mail bellow:  
