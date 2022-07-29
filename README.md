@@ -24,6 +24,9 @@
   ```
   npm i inquirer@8.2.4
   ```
+  ```
+  npm install --save-dev jest
+  ```
 
   ## Usage
   go to local folder and run node index.js
