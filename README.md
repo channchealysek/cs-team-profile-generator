@@ -15,7 +15,7 @@
   5. [Tests](#Tests)
   6. [Questions](#Questions)
   7. [Screenshot](#Screenshot)
-  8. [VideoDemo](#Video Demo)
+  8. [VideoDemo](#VideoDemo)
   
   ## Installation
   ```
