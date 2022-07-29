@@ -39,7 +39,7 @@
   ## Screenshot
   ![team_generator_](https://user-images.githubusercontent.com/102747948/181675388-964714cc-bdee-46c2-96d0-a12edc29e74c.png)
 
-  ## Video Demo
+  ## VideoDemo
   https://drive.google.com/file/d/1Mm8PNR_xYn8NH7NN39QQPswBWgUOvN5J/view?usp=sharing
 
   ## Questions
