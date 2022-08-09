@@ -5,7 +5,7 @@
    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   
   ## Description 
-  Let user easy to their team profile
+  A command-line application let user to input requirement information related to employee information for position, office, Github, e-mail to generate profile as a team. This application using framework and technologies as Node.js, inquirer, and jest for user input and test function to verify these are working correctly. The informations from user inputs will generate and view to web browser and manage to group by positions.
 
   ## Table of Contents
   1. [Installation](#Installation)
